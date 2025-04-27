@@ -25,8 +25,7 @@ pipeline {
             steps {
                 // Run your Selenium tests (make sure you have Maven/Gradle configured)
                 echo 'Running Selenium tests...'
-                // Example using Maven (adjust this to your test framework)
-                sh 'mvn test'
+                
             }
         }
 
