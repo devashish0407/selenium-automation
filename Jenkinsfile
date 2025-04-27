@@ -33,7 +33,7 @@ pipeline {
             steps {
                 // Post-test actions, such as generating reports or archiving test results
                 echo 'Post-test actions...'
-            
+                sh 'cp target/extent-report.html /var/www/html/extent-report.html'
             }
         }
     }
